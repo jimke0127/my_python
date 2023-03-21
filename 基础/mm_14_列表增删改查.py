@@ -1,3 +1,5 @@
+# 列表是有序的对象集合，类似php中的不带键的数组
+
 name_list = ["zhangsan", "lisi", "wangwu"]
 
 # 1. 取值和取索引
