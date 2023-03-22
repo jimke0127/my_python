@@ -1,5 +1,11 @@
 name_list = ["张三", "李四", "王五", "王小二", "张三"]
 
+# 判断列表是否包含某个元素
+if "李四" in name_list:
+    print("数组包含李四")
+else:
+    print("数组不包含李四")
+
 list_len = len(name_list)
 print("列表中包含 %d 个元素" % list_len)
 

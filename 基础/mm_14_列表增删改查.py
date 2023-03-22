@@ -26,9 +26,11 @@ name_list.insert(1, "小美眉")
 print(name_list)
 
 # extend 方法可以把其他列表中的完整内容，追加到当前列表的末尾
-temp_list = ["孙悟空", "猪二哥", "沙师弟"]
+temp_list = ["王小二", "孙悟空", "猪二哥", "沙师弟"]
 name_list.extend(temp_list)
 print(name_list)
+name_t = set(name_list)
+print(name_t)
 
 # 4. 删除
 # remove 方法可以从列表中删除指定的数据
