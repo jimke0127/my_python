@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 import mm_19_cards_tools as tool
 
 while True:
