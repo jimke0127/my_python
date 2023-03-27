@@ -24,6 +24,10 @@ class Women:
         self.__secret()
 
 
+class Xiaohong(Women):
+
+    def work(self):
+        print("热爱工作")
 
 xiaofang = Women("小芳")
 # 私有属性，在外界不能够被直接访问
@@ -33,3 +37,6 @@ xiaofang = Women("小芳")
 
 # 类的内部可以访问私有的属性或方法
 xiaofang.test()
+
+xh = Xiaohong("小红")
+xh.test()
