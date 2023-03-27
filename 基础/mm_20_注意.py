@@ -1,3 +1,5 @@
+# 在函数内部，针对参数使用赋值语句，不会修改到外部的实参变量
+
 def test(str1):
     str1 = "我改变了"
     print(str1)
@@ -6,6 +8,10 @@ def test(str1):
 def test_list1(str_list1):
     # 使用列表内部方法改变列表，外部列表(可变类型的数据列表、字典)也会改变
     str_list1.append("hello")
+
+    # 列表变量使用 += 本质上是在调用列表的 extend 方法
+    str_list1 += str_list1
+    # str_list1.extend(str_list1)
 
 
 def test_list2(str_list2):
