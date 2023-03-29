@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d82ff58-273a-4f07-91d2-0c25dc468ec9" name="Changes" comment="my git ooo">
-      <change afterPath="$PROJECT_DIR$/hm_message/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm_message/receive_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm_message/send_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/mm_33_单例模式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/mm_34_异常.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/mm_35_模块.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/mm_36_包.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/mm_37_读取文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/mm_38_写入文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/mm_39_readline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/mm_40_复制小文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/mm_41_复制大文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/mm_42_编码格式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/mm_43_eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/readme2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/基础/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu安装mysql.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/mm_13_模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础/mm_13_模块.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/mm_24_初始化.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础/mm_24_初始化.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/mod_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础/mod_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

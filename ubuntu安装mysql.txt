@@ -1,0 +1,61 @@
+（一）安装
+
+1、更新高级软件包工具
+sudo apt-get update
+
+2、安装MySQL服务器
+sudo apt-get install mysql-server
+
+3、安装MySQL客户端
+sudo apt-get install mysql-client
+
+4、安装MySQL依赖库
+sudo apt-get install libmysqlclient-dev
+
+5、查询MySQL状态
+sudo netstat -tap | grep mysql
+
+6、重看MySQL版本
+sudo mysql -V
+
+7、登录MySQL
+sudo mysql
+此时会进入MySQL的Shell。
+退出Shell：
+mysql>exit;
+
+（二）添加root账号登录密码
+
+1、通过VI编辑器打开文件“mysqld.cnf”，按“i”键进行编辑。
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+
+在文件内容的末尾添加一行
+skip-grant-tables
+按“ESC”键退出编辑状态，输入“:wq”保存文件并退出。
+
+2、重新启动MySQL服务。
+sudo service mysql restart
+
+3、登录MySQL。
+sudo mysql
+
+4、切换到表mysql
+use mysql;
+
+5、修改密码
+mysql>ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456;
+如果一直说语法错误，那应该是版本问题，换下面的试试：
+ALTER USER 'root'@'localhost' IDENTIFIED BY '123456';
+此时可能会报错：ERROR 1290 (HY000): The MySQL server is running with the –skip-grant-tables option so it cannot execute this statement
+解决办法是刷新权限。
+mysql>flush privileges;
+
+显示：Query OK, 0 rows affected (0.00 sec)
+然后，再次执行更改密码的语句。
+
+再次显示：Query OK, 0 rows affected (0.00 sec)
+此时，密码已经修改成功，退出Shell
+
+6、sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+把最后一行去掉；重启mysql服务。
+
