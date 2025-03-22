@@ -32,7 +32,8 @@ print(name_list)
 temp_list = ["王小二", "孙悟空", "猪二哥", "沙师弟"]
 name_list.extend(temp_list)
 print(name_list)
-name_t = set(name_list)
+#去重
+name_t = set(name_list) 
 print(name_t)
 
 # 4. 删除

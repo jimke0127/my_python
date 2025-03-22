@@ -33,6 +33,13 @@ class Soldier:
         self.name = name
         self.gun = None
 
+    def zd(self,count):
+        """
+        士兵装弹
+        @return:
+        """
+        self.gun.add_bullet(count)
+
     def fire(self):
         """
         士兵开火
@@ -42,12 +49,12 @@ class Soldier:
             print("[%s] 还没有枪 。。。" % self.name)
             return
 
-        self.gun.add_bullet(50)
         self.gun.shoot()
 
 
 gun = Gun("AK47")
 xsd = Soldier("许三多")
 xsd.gun = gun
+xsd.zd(10)
 xsd.fire()
 print(xsd.gun)

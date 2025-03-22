@@ -31,7 +31,7 @@ print(info_str)
 print("####元组和列表的转换####")
 list1 = list(info_tuple)
 print(list1)
-print(type(list))
+print(type(list1))
 
 tuple1 = tuple(list1)
 print(tuple1)
